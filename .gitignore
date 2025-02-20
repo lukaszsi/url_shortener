@@ -1,0 +1,17 @@
+# Django-related
+*.pyc
+__pycache__/
+db.sqlite3  # Ignore SQLite database
+media/      # Ignore uploaded media files
+
+# Virtual Environments
+venv/
+.env        # Ignore environment variables file
+
+# VSCode & IDE Configs
+.vscode/
+.idea/
+
+# Poetry
+poetry.lock
+
